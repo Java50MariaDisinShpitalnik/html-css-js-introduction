@@ -1,0 +1,63 @@
+.board{ 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:center;
+    border: 2px solid snow;
+    margin-left: 300px;
+    width: 800px;
+height: 800px;}
+
+.boardFrame{
+    display: flex;
+flex-wrap: wrap;
+background-color: transparent;
+color: black;}
+
+.cell-frame{
+background-color: transparent;
+color: black;
+     width: 60px;
+    height: 60px;
+    border: 2px dotted transparent;
+    text-align: center;
+    }
+
+    .cell-frame-number{
+background-color: transparent;
+color: black;
+
+     width: 60px;
+    height: 60px;
+    border: 2px dotted transparent;
+    text-align: center;
+    font-size: 20px;
+    }
+
+.cell-frame-letters{
+background-color: transparent;
+color: black;
+     width: 60px;
+    height: 60px;
+    border: 2px dotted transparent;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    }
+.row-board{
+ display: flex;
+flex-wrap: wrap;
+}
+
+.cell-black{
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black; 
+}
+.cell-white{
+    background-color: snow;
+        width: 60px;
+    height: 60px;
+    border: 2px solid rgba(128, 128, 128, 0.901);
+}
