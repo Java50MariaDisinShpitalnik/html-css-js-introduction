@@ -26,7 +26,9 @@ color: black;
     .cell-frame-number{
 background-color: transparent;
 color: black;
-
+display: flex;
+justify-content: center;
+align-items: center;
      width: 60px;
     height: 60px;
     border: 2px dotted transparent;
@@ -50,7 +52,7 @@ flex-wrap: wrap;
 }
 
 .cell-black{
-    background-color: black;
+    background-color: #000000b0;
     width: 60px;
     height: 60px;
     border: 2px solid black; 
