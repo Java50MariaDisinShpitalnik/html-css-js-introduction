@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.logo{
+    display: block;
+    text-align: center;
+    background-color: beige;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.main-class{
+    display: flex;
+    flex-direction: column;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details-image{
+    width: 40vw;
+    height: 50vw;
+
+}
+.details-title{
+    display: block;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+.thumbnails-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 30vh;
+    overflow-y: scroll;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+}
+.thumbnails-item{
+    box-sizing: border-box;
+    display: block;
+    border: solid 2px blueviolet;
+    margin-top: 2vh;
+    border-radius: 25%;
+    text-align: center;
+    overflow: hidden;
+
+}
+.thumbnails-ancor{
+    text-decoration: none;
+
+}
+.thumbnails-img{
+   width:  20vw;
+   height: 15vw;
+}
+.thumbnails-title{
+    display: block;
+    text-align: center;
+    background-color: antiquewhite;
+    position: relative;
+    top: -4px;
+    font-size: 0.8rem;
+    max-width: fit-content;
+}
+
+.detail-ancor{
+    text-decoration: none;
+}
+.logo-img{
+    float:left;
+    max-width: 15vw;
+    font-size: 0.8rem;
+}
