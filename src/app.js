@@ -10,7 +10,7 @@ function myParseInt(str, redux) {
 		}
 
 		let symbol = str[i].toLowerCase();
-		if ((symbol < '0' || symbol > '9') && (symbol < 'a' || symbol > 'f'))
+		if ((symbol < '0' || symbol > '9') && (symbol < 'a' || symbol > 'z'))
 		{
 			break;
 		}
